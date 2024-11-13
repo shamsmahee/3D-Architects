@@ -23,7 +23,7 @@
       };
     </script>
   </head>
-  <body class="container mx-auto bg-white">
+  <body class="container mx-auto bg-white font-sans">
     <!-- header Section Start -->
     <section class="bg-orange-200">
       <div class="navbar justify-between">
@@ -47,7 +47,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              class="menu menu-sm dropdown-content bg-orange-300 text-black font-semibold rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li><a>Home</a></li>
               <li><a>About</a></li>
@@ -60,7 +60,9 @@
           >
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+          <ul
+            class="menu menu-horizontal px-1 text-black text-base font-semibold"
+          >
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Contact Us</a></li>
@@ -95,7 +97,7 @@
         </div>
       </div>
       <div class="w-full h-auto flex justify-center">
-        <img src="Img/grouppic.jpg" alt="" />
+        <img src="Img/grouppic.jpg" class="mb-7" alt="" />
       </div>
     </section>
     <!-- hero&Intro Section End -->
@@ -126,7 +128,7 @@
     </section>
     <!-- 2nd Part End Here -->
     <!-- 3rd part Start Here -->
-    <section class="mx-5 my-10 lg:flex justify-between items-center lg:mx-20">
+    <section class="mx-5 my-10 lg:grid grid-cols-2 place-items-center lg:mx-20">
       <div class="my-20">
         <div class="mb-5">
           <h1
@@ -134,7 +136,7 @@
           >
             Features you will <br />love & enjoy
           </h1>
-          <p class="text-sm">
+          <p class="text-sm lg:text-base">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even
@@ -179,12 +181,12 @@
           </p>
         </div>
       </div>
-      <div class="flex justify-start items-end lg:ml-10">
+      <div class="flex justify-start items-end">
         <div class="w-full h-auto relative">
           <img class="lg:w-auto h-full" src="Img/intropic.jpg" alt="" />
         </div>
         <div
-          class="w-[150px] h-[80px] flex flex-col justify-center items-center absolute bg-orange-500 lg:-my-5"
+          class="w-[250px] h-[150px] flex flex-col justify-center items-center absolute bg-orange-500 lg:-my-5 xl:-ml-5 2xl:-ml-20"
         >
           <h1 class="text-white font-bold text-2xl">10+ Years</h1>
           <h2 class="text-white font-bold text-xl">Experience</h2>
@@ -194,7 +196,7 @@
     <!-- 3rd part end here -->
     <!-- 4th Section Start -->
     <section>
-      <div class="mx-10">
+      <div class="mx-10 lg:mx-20">
         <h1 class="text-black font-bold text-3xl mb-3">Some Facts</h1>
         <p class="mb-10">
           There are many variations of passages of Lorem Ipsum available,<br />
@@ -248,7 +250,9 @@
           >but the majority have suffered alteration.</span
         >
       </div>
-      <div class="mx-auto grid grid-cols-1 place-items-center lg:grid-cols-5">
+      <div
+        class="mt-10 mx-auto mb-6 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-5"
+      >
         <div><img src="Img/sponser1.png" class="w-32 h-auto" alt="" /></div>
         <div><img src="Img/sponser2.png" class="w-32 h-auto" alt="" /></div>
         <div><img src="Img/sponser3.png" class="w-32 h-auto" alt="" /></div>
@@ -257,5 +261,19 @@
       </div>
     </section>
     <!-- sponser section end here -->
+    <!-- footer section start here -->
+    <section>
+      <footer
+        class="py-10 grid grid-cols-1 place-items-center gap-3 bg-slate-900 md:grid-cols-2"
+      >
+        <div><h1>© Md Shamsul Arefin. All rights reserved</h1></div>
+        <div class="flex flex-col justify-center items-center">
+          <h1 class="mb-3">Get the App</h1>
+          <img src="Img/AppStoreBadge.png" alt="" />
+          <img src="Img/Googleplay badge.png" alt="" />
+        </div>
+      </footer>
+    </section>
+    <!-- footer Section End Here -->
   </body>
 </html>
